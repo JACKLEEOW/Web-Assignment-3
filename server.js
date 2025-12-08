@@ -95,7 +95,7 @@ app.get('/api/painting/color/:name', (req, resp) => {
 
 //artists ------------------------------------------------------------------
 // All Artists
-app.get('/artists', (req, res) => {
+app.get('/api/artists', (req, res) => {
     res.json(artists);
 });
 // Artists by Country
@@ -114,7 +114,7 @@ app.get('/api/artists/:country', (req, res) => {
 
 
 //Galleries 
-app.get('/galleries', (req, res) => {
+app.get('/api/galleries', (req, res) => {
     res.json(galleries);
 });
 
