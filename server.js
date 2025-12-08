@@ -15,7 +15,7 @@ const galleries = require('./data/galleries.json');
 
 
 //Paintings ---------------------------------------------------------------
-app.get('/paintings', (req, res) => {
+app.get('/api/paintings', (req, res) => {
     res.json(paintings);
 });
 
